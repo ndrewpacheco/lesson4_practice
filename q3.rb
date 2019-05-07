@@ -1,6 +1,7 @@
 # How do you find where Ruby will look for a method when that method is called?
 # How can you find an object's ancestors?
 
+  # using lookup chain
 # Object.ancestors
  
 module Taste

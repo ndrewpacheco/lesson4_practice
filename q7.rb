@@ -2,7 +2,7 @@
 
 class Cat
   @@cats_count = 0
-  attr_accessor :cats_count
+
   def initialize(type)
     @type = type
     @age  = 0
@@ -25,5 +25,3 @@ p Cat.cats_count
 cat2 = Cat.new("type")
 p Cat.cats_count
 
-
-p cat1.cats_count
